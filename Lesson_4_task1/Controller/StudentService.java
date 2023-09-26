@@ -1,7 +1,9 @@
-package Lesson_4.Lesson_4_task1;
+package Lesson_4.Lesson_4_task1.Controller;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import Lesson_4.Lesson_4_task1.Model.Student;
 
 public class StudentService implements UserService<Student> {
 	private List<Student> students;

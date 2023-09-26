@@ -1,7 +1,9 @@
-package Lesson_4.Lesson_4_task1;
+package Lesson_4.Lesson_4_task1.Controller;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import Lesson_4.Lesson_4_task1.Model.Teacher;
 
 public class TeacherService implements UserService<Teacher> {
 	private List<Teacher> teachers;

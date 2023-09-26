@@ -1,4 +1,4 @@
-package Lesson_4.Lesson_4_task1;
+package Lesson_4.Lesson_4_task1.Model;
 
 public class Teacher extends User {
 	private String objectToTeach;
@@ -26,11 +26,9 @@ public class Teacher extends User {
 		this.rating = rating;
 	}
 
+	@Override
 	public String toString() {
-		return "{ Teacher " + " name: " +
-				name + ", age: " +
-				age + ", objectToTeach: " +
-				objectToTeach + "rating: " +
-				rating + " }";
+		return "Teacher [objectToTeach=" + objectToTeach + ", rating=" + rating + "]";
 	}
+	//TODO Класс подверждает принцип единственной ответственности, потому как не содержит ничего лишнего.
 }
